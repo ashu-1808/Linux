@@ -48,27 +48,30 @@ Application Server – Runs backend applications
 
 ## Differences:
 ```
-| Feature	| Linux	| Windows |
-|---------|-------|--------|
-| Cost	| Free & Open Source	| Paid |
-| Source Code | Open	| Closed |
-| Security	| Very strong	| More malware-prone |
-| Performance	| Lightweight	| Resource heavy |
-| Customization	| High	| Limited |
-| Stability	| Very stable	| Needs frequent reboot |
-| Usage	| Servers, Cloud, DevOps	| Desktop, Gaming |
+| Feature           | Linux                  | Windows               |
+| ----------------- | ---------------------- | --------------------- |
+| **Cost**          | Free & Open Source     | Paid                  |
+| **Source Code**   | Open                   | Closed                |
+| **Security**      | Very strong            | More malware-prone    |
+| **Performance**   | Lightweight            | Resource heavy        |
+| **Customization** | High                   | Limited               |
+| **Stability**     | Very stable            | Needs frequent reboot |
+| **Usage**         | Servers, Cloud, DevOps | Desktop, Gaming       |
+
 ```
 ## Desktop OS vs Server OS
 
 ## Differences:
 ```
-| Feature	| Desktop OS	| Server OS |
-|---------|-----------|----------|
-| Purpose	| Personal use	| Provide services |
-| Users	| Single / Few	| Multiple users |
-| GUI	| Mandatory	| Optional |
-| Performance	| Moderate	| High & optimized |
-| Examples	| Ubuntu Desktop, Windows 11	| RHEL, Ubuntu Server |
+| Feature         | Desktop OS                   | Server OS                  |
+| --------------- | ---------------------------- | -------------------------- |
+| **Purpose**     | Personal use                 | Provide services           |
+| **Users**       | Single / Few                 | Multiple users             |
+| **GUI**         | Mandatory                    | Optional                   |
+| **Performance** | Moderate                     | High & optimized           |
+| **Use Case**    | Daily computing, office work | Hosting, networking, cloud |
+| **Examples**    | Ubuntu Desktop, Windows 11   | RHEL, Ubuntu Server        |
+
 ```
 # Linux Architecture
 ## Linux Architecture Diagram
@@ -77,13 +80,9 @@ Text Diagram (for reference):
 
 
 |   User Applications  |
-|----------------------|
 |       Shell          |
-|----------------------|
-| System Libraries     |
-|----------------------|
+|  System Libraries    |
 |       Kernel         |
-|----------------------|
 |      Hardware        |
 
 
