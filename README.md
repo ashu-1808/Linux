@@ -61,7 +61,7 @@ Application Server – Runs backend applications
 ## Desktop OS vs Server OS
 
 ## Differences:
-```
+
 | Feature | Desktop OS | Server OS |
 |---------|-----------|----------|
 | **Purpose** | Personal use | Provide services |
@@ -69,7 +69,7 @@ Application Server – Runs backend applications
 | **GUI** | Mandatory | Optional |
 | **Performance** | Moderate | High & optimized |
 | **Examples** | Ubuntu Desktop, Windows 11	| RHEL, Ubuntu Server |
-```
+
 # Linux Architecture
 ## Linux Architecture Diagram
 
