@@ -58,7 +58,7 @@ List All Users
 cat /etc/passwd
 ```
 
-📒 Linux User Account Files & Commands
+## Linux User Account Files & Commands
 
 ```
 /etc/passwd
@@ -264,22 +264,22 @@ Fields in /etc/gshadow
 
 
 ## Commands for Group Management
-1️⃣ Add a Group = Used to create a new group
+1 Add a Group = Used to create a new group
 ```
 groupadd <groupname>
 ```
-2️⃣ Delete a Group = Deletes the specified group
+2 Delete a Group = Deletes the specified group
 ```
 groupdel <groupname>
 ```
-3️⃣ Add User to a Group
+3 Add User to a Group
 ```
 usermod -aG <groupname> <username>
 ```
 -a → append 
 -G → secondary group
 
-4️⃣ Set / Change Group Password
+4 Set / Change Group Password
 ```
 gpasswd -a <username> <groupname>
 ```
@@ -288,32 +288,27 @@ OR
 gpasswd <groupname>
 ```
 
-Linux Group Commands & File Permissions
-
-👥 Group Password Management (gpasswd)
-Common gpasswd Commands
-
-1️⃣ Delete a Group
+5 Delete a Group
 ```
 gpasswd -d <username> <groupname>
 ```
-2️⃣ Add Multiple Users to a Group
+6 Add Multiple Users to a Group
 ```
 gpasswd -M <user1,user2,user3> <groupname>
 ```
 
-3️⃣ Add a Single User to Multiple Groups
+7 Add a Single User to Multiple Groups
 ```
 gpasswd -G <group1,group2,group3> <username>
 ```
 
-4️⃣ Assign Group Admin
+8 Assign Group Admin
 
 ```
 gpasswd -A <username> <group>
 ```
 
-5️⃣ Remove Admin from Group
+9 Remove Admin from Group
 ```
 gpasswd -A "" <groupname>
 
