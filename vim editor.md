@@ -31,8 +31,9 @@ vim filename.txt
 | `:`     | Command mode      |
 
 ## 1.Normal Mode
+
 ```
- 1.Normal Mode – Navigation
+ 1.Normal Mode – Navigation:
 ```
 | Key        | Action                |
 | ---------- | --------------------- |
@@ -42,9 +43,8 @@ vim filename.txt
 | `gg` / `G` | First / Last line     |
 | `:n`       | Go to line number     |
 
-
 ```
-Normal Mode – Edit
+Normal Mode – Edit:
 ```
 | Command    | Action               |
 | ---------- | -------------------- |
@@ -57,6 +57,7 @@ Normal Mode – Edit
 | `Ctrl + r` | Redo                 |
 
 
+
 ## 2.Insert Mode
 | Command   | Action                 |
 | --------- | ---------------------- |
@@ -65,6 +66,7 @@ Normal Mode – Edit
 | `o` / `O` | New line below / above |
 | `I` / `A` | Line start / end       |
 | `Esc`     | Exit insert mode       |
+
 
 
 ## 3.Visual Mode
@@ -78,7 +80,7 @@ Normal Mode – Edit
 | `>` / `<`  | Indent           |
 
 ```
-Visual Mode Actions
+Visual Mode Actions:
 ```
 | Command | Action               |
 | ------- | -------------------- |
@@ -89,11 +91,12 @@ Visual Mode Actions
 | `<`     | Indent left          |
 
 
+
+
 ## 4.Command Mode
 Used for saving, quitting, searching, replacing
-```
 (Press Esc then :)
-```
+
 | Command | Action              |
 | ------- | ------------------- |
 | `:w`    | Save                |
@@ -101,8 +104,9 @@ Used for saving, quitting, searching, replacing
 | `:wq`   | Save & quit         |
 | `:q!`   | Quit without saving |
 | `ZZ`    | Save & exit         |
+
 ```
-Replace Commands
+Replace Commands:
 ```
 | Command          | Action                      |
 | ---------------- | --------------------------- |
@@ -112,7 +116,7 @@ Replace Commands
 | `:%s/old/new/gc` | Replace with confirmation   |
 
 ```
-File & Utility Commands
+File & Utility Commands:
 ```
 | Command     | Action            |
 | ----------- | ----------------- |
@@ -120,8 +124,9 @@ File & Utility Commands
 | `:set nonu` | Hide line numbers |
 | `:!ls`      | Run shell command |
 | `:help`     | Open Vim help     |
+
 ```
-Search Commands
+Search Commands:
 ```
 | Command | Action          |
 | ------- | --------------- |
