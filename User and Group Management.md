@@ -73,6 +73,7 @@ Fields in /etc/passwd
 Fields in /etc/passwd (Fields separated by :)
 
 | Username | abhi |Name of the user account |
+|----------|------|--------------------------|
 | Password placeholder | x |Actual password is stored in /etc/shadow |
 | User ID (UID) | 1001 | Unique ID of the user |
 | Group ID (GID) | 1001 | Primary group ID of the user |
