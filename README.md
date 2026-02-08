@@ -56,7 +56,7 @@ Application Server – Runs backend applications
 | **Performance** | Lightweight	| Resource heavy |
 | **Customization**	| High	| Limited |
 | **Stability** | Very stable | Needs frequent reboot |
-|** Usage** | Servers, Cloud, DevOps | Desktop, Gaming |
+| ** Usage** | Servers, Cloud, DevOps | Desktop, Gaming |
 
 ## Desktop OS vs Server OS
 
