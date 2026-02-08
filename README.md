@@ -77,6 +77,7 @@ Application Server – Runs backend applications
 Text Diagram (for reference):
 
 |   User Applications  |
+|----------------------|
 |       Shell          |
 | System Libraries     |
 |       Kernel         |
