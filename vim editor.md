@@ -33,7 +33,7 @@ vim filename.txt
 ## 1.Normal Mode
 
 
-1.Normal Mode – Navigation
+Normal Mode – Navigation
 
 | Key        | Action                |
 | ---------- | --------------------- |
@@ -43,9 +43,9 @@ vim filename.txt
 | `gg` / `G` | First / Last line     |
 | `:n`       | Go to line number     |
 
-```
+
 Normal Mode – Edit:
-```
+
 | Command    | Action               |
 | ---------- | -------------------- |
 | `x`        | Delete character     |
@@ -79,9 +79,9 @@ Normal Mode – Edit:
 | `d`        | Delete           |
 | `>` / `<`  | Indent           |
 
-```
+
 Visual Mode Actions:
-```
+
 | Command | Action               |
 | ------- | -------------------- |
 | `y`     | Copy selected text   |
@@ -105,9 +105,9 @@ Used for saving, quitting, searching, replacing
 | `:q!`   | Quit without saving |
 | `ZZ`    | Save & exit         |
 
-```
+
 Replace Commands:
-```
+
 | Command          | Action                      |
 | ---------------- | --------------------------- |
 | `:s/old/new`     | Replace first match in line |
@@ -115,9 +115,9 @@ Replace Commands:
 | `:%s/old/new/g`  | Replace all matches in file |
 | `:%s/old/new/gc` | Replace with confirmation   |
 
-```
+
 File & Utility Commands:
-```
+
 | Command     | Action            |
 | ----------- | ----------------- |
 | `:set nu`   | Show line numbers |
@@ -125,9 +125,10 @@ File & Utility Commands:
 | `:!ls`      | Run shell command |
 | `:help`     | Open Vim help     |
 
-```
+
+
 Search Commands:
-```
+
 | Command | Action          |
 | ------- | --------------- |
 | `/word` | Search forward  |
