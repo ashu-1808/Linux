@@ -47,7 +47,7 @@ Application Server – Runs backend applications
 ## Linux vs Windows
 
 ## Differences:
-```
+
 | Feature | Linux | Windows |
 |---------|-------|---------|
 | **Cost** | Free & Open Source | Paid |
@@ -57,7 +57,7 @@ Application Server – Runs backend applications
 | **Customization**	| High	| Limited |
 | **Stability** | Very stable | Needs frequent reboot |
 |** Usage** | Servers, Cloud, DevOps | Desktop, Gaming |
-```
+
 ## Desktop OS vs Server OS
 
 ## Differences:
