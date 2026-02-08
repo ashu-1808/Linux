@@ -7,27 +7,27 @@ Examples: Linux, Windows, macOS, Unix
 ```
 ## Types of Operating Systems
 ```
-## 1 Batch Operating System:
+1 Batch Operating System:
 Jobs are collected and executed in batches
 No user interaction during execution
 Example: Payroll systems
 
-## 2 Time-Sharing Operating System:
+2 Time-Sharing Operating System:
 Multiple users share CPU time
 Fast response time
 Example: Linux, Unix
 
-## 3 Distributed Operating System:
+3 Distributed Operating System:
 Multiple systems work together as one
 Improves reliability and performance
 Example: Cluster systems
 
-## 4 Network Operating System:
+4 Network Operating System:
 Manages network resources
 Used in client-server environments
 Example: Linux Server, Windows Server
 
-## 5 Real-Time Operating System (RTOS):
+5 Real-Time Operating System (RTOS):
 Processes data within strict time limits
 Used in embedded and critical systems
 Example: RTLinux, VxWorks
@@ -75,7 +75,6 @@ Application Server – Runs backend applications
 
 Text Diagram (for reference):
 
-
 |   User Applications  |
 |       Shell          |
 | System Libraries     |
@@ -84,38 +83,34 @@ Text Diagram (for reference):
 
 
 ## Linux Architecture Components
-## a. Hardware
 ```
+a. Hardware:
 Physical components like CPU, RAM, disk, network devices
-```
-## b. Kernel
-```
+
+b. Kernel:
 Core of Linux OS
 Manages:Process scheduling, Memory management, Device drivers, File systems
-```
-## c. System Libraries
-```
+
+c. System Libraries:
 Provide functions used by applications
 Help applications interact with the kernel
-```
-## d. Shell
-```
+
+d. Shell:
 Command-line interface
 Acts as a bridge between user and kernel
 Examples: bash, sh, zsh
-```
-## e. User Applications
-```
+
+e. User Applications:
 Software used by users
 Examples: browsers, editors, servers
 ```
 
 ## Popular Linux Distributions:
 ```
-Ubuntu – Beginner-friendly, desktop & server
-Red Hat Enterprise Linux (RHEL) – Enterprise use
-CentOS / Rocky Linux – RHEL-based free distros
-Debian – Stable and secure
-Kali Linux – Cybersecurity & penetration testing
-Amazon Linux – Optimized for AWS
+1.Ubuntu – Beginner-friendly, desktop & server
+2.Red Hat Enterprise Linux (RHEL) – Enterprise use
+3.CentOS / Rocky Linux – RHEL-based free distros
+4.Debian – Stable and secure
+5.Kali Linux – Cybersecurity & penetration testing
+6.Amazon Linux – Optimized for AWS
 ```
