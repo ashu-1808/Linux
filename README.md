@@ -68,6 +68,7 @@ Application Server – Runs backend applications
 | **Users**	| Single / Few | Multiple users |
 | **GUI** | Mandatory | Optional |
 | **Performance** | Moderate | High & optimized |
+| **Use Case** | Daily computing, office work | Hosting, networking, cloud |
 | **Examples** | Ubuntu Desktop, Windows 11	| RHEL, Ubuntu Server |
 
 # Linux Architecture
