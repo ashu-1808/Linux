@@ -111,7 +111,7 @@ Example:
 kill -9 93483
 ```
 
-(⚠️ Use SIGKILL only if SIGTERM fails)
+⚠️ Use SIGKILL only if SIGTERM fails
 
 3 Kill by Process Name--(Kills all processes with name nginx)
 ```
@@ -173,12 +173,9 @@ Example
 
   i.The terminal is busy for 30 seconds
   ii.You must wait until it finishes or stop it
-## Background Job (Linux)
-🔹 Definition
-
+## Background Job/process
 A background job is a process that runs without occupying the terminal, allowing you to continue using the same terminal to execute other commands.
-
-👉 It runs detached from direct keyboard input.
+It runs detached from direct keyboard input.
 
 Key Characteristics
  1.Runs in the background
@@ -223,6 +220,6 @@ Change Niceness of a Running Process
 ```
 renice -n -5 -p <PID>
 ```
-(⚠️ Only root can set negative niceness values.)
+⚠️ Only root can set negative niceness values.
 
   
