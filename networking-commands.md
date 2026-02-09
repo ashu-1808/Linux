@@ -1,5 +1,5 @@
-Linux Networking Commands
-🔹 1. ip (Used to configure and view network interfaces, IP addresses, and routes.)
+## Linux Networking Commands
+1. ip (Used to configure and view network interfaces, IP addresses, and routes.)
 ```
 ip addr
 ip link
@@ -24,7 +24,7 @@ ifconfig
 | `ifconfig eth0 up`   | Enable interface  |
 | `ifconfig eth0 down` | Disable interface |
 
-🔹 3. ping(Used to check network connectivity between hosts.)
+3. ping(Used to check network connectivity between hosts.)
 ```
 ping google.com
 ```
@@ -33,7 +33,7 @@ ping google.com
 | `-c 4` | Send 4 packets        |
 | `-i 2` | Interval of 2 seconds |
 
-🔹 4. netstat (Used to display network connections, ports, routing tables.)
+4. netstat (Used to display network connections, ports, routing tables.)
 ```
 netstat -tulnp
 ```
@@ -45,7 +45,7 @@ netstat -tulnp
 | `-n`   | Numeric   |
 | `-p`   | PID       |
 
-🔹 5. ss (Modern Replacement of netstat Faster and more powerful.)
+5. ss (Modern Replacement of netstat Faster and more powerful.)
 ```
 ss -tulnp
 ```
@@ -54,16 +54,16 @@ ss -tulnp
 | `ss -tuln` | Listening ports |
 | `ss -s`    | Socket summary  |
 
-🔹 6. traceroute(Shows the path packets take to reach a destination.)
+6. traceroute(Shows the path packets take to reach a destination.)
 ```
 traceroute google.com
 ```
-🔹 7. nslookup(Used for DNS lookup.)
+7. nslookup(Used for DNS lookup.)
 ```
 nslookup google.com
 ```
 
-🔹 8. dig (Advanced DNS Tool)
+8. dig (Advanced DNS Tool)
 ```
 dig google.com
 ```
@@ -72,7 +72,7 @@ dig google.com
 | `dig google.com`        | DNS record   |
 | `dig google.com +short` | Short output |
 
-🔹 9. hostname(Shows or sets system hostname.)
+9. hostname(Shows or sets system hostname.)
 ```
 hostname
 hostname -I
@@ -82,28 +82,28 @@ hostname -I
 | `hostname`    | System name |
 | `hostname -I` | IP address  |
 
-🔹 10. curl(Used to test APIs and HTTP/HTTPS connectivity.)
+10. curl(Used to test APIs and HTTP/HTTPS connectivity.)
 ```
 curl http://example.com
 ```
 
-🔹 11. wget(Used to download files from the internet.)
+11. wget(Used to download files from the internet.)
 ```
 wget http://example.com/file.zip
 ```
 
-🔹 12. arp(Displays ARP table (IP → MAC mapping).
+12. arp(Displays ARP table (IP → MAC mapping).
 ```
 arp -a
 ```
 
-🔹 13. route (Used to view routing table.)
+13. route (Used to view routing table.)
 ```
 route -n
 ```
 (Modern alternative: ip route)
 
-🔹 14. nmap(Used for network scanning & port scanning.)
+14. nmap(Used for network scanning & port scanning.)
 ```
 nmap localhost
 ```
