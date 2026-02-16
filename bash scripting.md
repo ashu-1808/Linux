@@ -1,6 +1,4 @@
-Here is the **corrected and properly structured version** of the notes from your image (Sections 1–6), with grammar improvements and technical corrections.
 
----
 
 # Linux Shell Scripting – Basic Interview & Revision Notes (Corrected Version)
 
