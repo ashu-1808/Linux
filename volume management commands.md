@@ -3,7 +3,6 @@
 ![Image](https://miro.medium.com/v2/resize%3Afit%3A1400/1%2Ag0H1kb7u6ZAQ-vObWEY1EA.png)
 
 
-![Image](https://access.redhat.com/webassets/avalon/d/Red_Hat_Enterprise_Linux-7-Logical_Volume_Manager_Administration-en-US/images/aa96fde158c47229d69b70d319d41677/basic-lvm-volume.png)
 
 
 ## 🔷 LVM Layer Comparison
