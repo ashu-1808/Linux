@@ -14,14 +14,7 @@
 | **LV** | Logical Volume  | Creates partition from VG               | `lvcreate -L 1G -n mylv myvg` | `lvs` / `lvdisplay` | `lvextend -L +1G /dev/myvg/mylv` | `lvremove /dev/myvg/mylv` |
 
 
-## 🔷 Resize Comparison (Very Important)
 
-| Task        | Command                           | Extra Step Required       |
-| ----------- | --------------------------------- | ------------------------- |
-| Extend LV   | `lvextend -L +1G /dev/myvg/mylv`  | Yes (resize filesystem)   |
-| Resize XFS  | `xfs_growfs /mountpoint`          | Must be mounted           |
-| Resize EXT4 | `resize2fs /dev/myvg/mylv`        | Can be mounted/unmounted  |
-| Reduce LV   | `lvreduce -L 500M /dev/myvg/mylv` | ⚠ Must unmount + fs check |
 
 
 ---
