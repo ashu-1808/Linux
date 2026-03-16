@@ -60,12 +60,9 @@ Application Server – Runs backend applications
 
 
 
-## Linux Architecture Components
 ## Linux Architecture
 
 **Linux architecture has four main components hardware,kernel,shell and user/application**
-
-
 
 **Hardware:** it consists of motherboard ,CPU,HDD etc
 
