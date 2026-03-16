@@ -17,7 +17,7 @@ Examples: Linux, Windows, macOS, Unix
 ## What is a Server?
 ```
 A server is a computer or system that provides services, resources, or data to other computers (clients) over a network.
-Examples of Server Types:
+Server Types:
 Web Server – Hosts websites
 File Server – Stores and shares files
 Database Server – Manages databases
