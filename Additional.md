@@ -75,10 +75,12 @@ rsync -avz user@remote_ip:/backup/ /data/
 rsync -av /source/ /destination/
 ```
 4 Delete extra files at destination
-```rsync -avz --delete /data/ user@remote_ip:/backup/
+```
+rsync -avz --delete /data/ user@remote_ip:/backup/
 ```
 5 Dry run (test before actual sync)
-```rsync -avz --dry-run /data/ user@remote_ip:/backup/
+```
+rsync -avz --dry-run /data/ user@remote_ip:/backup/
 ```
 6 Use a specific SSH port
 ```
