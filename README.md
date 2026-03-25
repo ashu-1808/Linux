@@ -17,11 +17,16 @@ Examples: Linux, Windows, macOS, Unix
 ## What is a Server?
 ```
 A server is a computer or system that provides services, resources, or data to other computers (clients) over a network.
+
 Server Types:
-Web Server – Hosts websites
-File Server – Stores and shares files
-Database Server – Manages databases
-Application Server – Runs backend applications
+
+1.Web Server – Hosts websites
+
+2.File Server – Stores and shares files
+
+3.Database Server – Manages databases
+
+4.Application Server – Runs backend applications
 ```
 ```
 💡Most production servers use Linux due to its stability, security, and zero licensing cost.
